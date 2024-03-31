@@ -1,0 +1,225 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .galio {
+    width: Fixed (1, 512px)px;
+    height: Fixed (3, 300px)px;
+    top: -6px;
+    left: -601px;
+    gap: 0px;
+    opacity: 0px;
+
+} */
+
+/* Basic styles for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-image: url(first\ bg.png);
+    position: relative;
+    width: 1512px;
+    height: 588px;
+    top: -6px;
+    left: -60px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #2ba165;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 27px 44px 1318px 88px;
+}
+
+.logo img {
+    width: 106px;
+    height: 117px;
+    top: 21px;
+    left: -513px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    border: 1px;
+    background-color: #191818;
+    width: Fixed (583px)px;
+    height: Hug (52px)px;
+    top: 60px;
+    left: -103px;
+    padding: 16px 24px 16px 24px;
+    gap: 24px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.connect-btn {
+    background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 127px;
+    height: 38px;
+    top: 48px;
+    left: 695px;
+    padding: 10px 16px 10px 16px;
+    gap: 6.18px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd {
+    position: absolute;
+    width: 1262px;
+    height: 108px;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    gap: 0px;
+    opacity: 0px;
+}
+
+.introduction {
+    display: flex;
+    padding: 20px;
+    background: #191818;
+    border: 1px solid #2ba165;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 716px;
+    top: 1261px;
+    left: -601px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.intro-content h1 {
+    position: absolute;
+    width: 389px;
+    height: 52px;
+    top: 671px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0px;
+    opacity: 0px;
+}
+
+.intro-content p {
+    position: absolute;
+    width: 587px;
+    height: 207px;
+    top: 747px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0px;
+    opacity: 0px;
+}
+
+.roadmap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr); padding: 20px;
+    background-image: url(rOADMAP\ BG.png);
+}
+
+.roadmap-images {
+    flex: 1;
+}
+
+.roadmap-images img {
+    width: 100%;
+}
+
+.faq {
+    display: flex;
+    padding: 20px;
+    background-color: #191818;
+}
+
+.faq-content {
+    flex: 1;
+}
+
+.faq-images img {
+    width: 100%;
+}
+
+footer {
+    width: 1512px;
+    height: 428px;
+    top: 2866px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    background: linear-gradient(180deg, #030405 0%, #120101 100%);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+footer img {
+    width: 200px;
+    height: 163px;
+    top: 64px;
+    left: 658px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+footer h3 {
+    width: 114px;
+    height: 26px;
+    top: 252px;
+    left: 699px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    color: (92.23deg, #FF002A 5.2%, #720005 90.93%) ;
+    background-color:  linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+}
+
+footer nav ul li {
+    width: 192.86px; /* Fixed width */
+    height: 27.47px; /* Hug height */
+    gap: 13.73px;
+    opacity: 0px;
+    list-style-type: none;
+}
+footer nav {
+    width: 618px;
+    height: 20px;
+    top: 302px;
+    left: 447px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
